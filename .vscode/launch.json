@@ -1,0 +1,71 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - labdimension",
+        "order": 0
+      },
+      "projectName": "labdimension",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/Users/lucasbuckley/Documents/GitHub/Lab-Dimension/build/moddev/clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/Users/lucasbuckley/Documents/GitHub/Lab-Dimension/build/moddev/clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dlabdimension%%/Users/lucasbuckley/Documents/GitHub/Lab-Dimension/bin/main:labdimension%%/Users/lucasbuckley/Documents/GitHub/Lab-Dimension/bin/test"
+      ],
+      "cwd": "${workspaceFolder}/run/client",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - labdimension",
+        "order": 1
+      },
+      "projectName": "labdimension",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/Users/lucasbuckley/Documents/GitHub/Lab-Dimension/build/moddev/gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/Users/lucasbuckley/Documents/GitHub/Lab-Dimension/build/moddev/gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dlabdimension%%/Users/lucasbuckley/Documents/GitHub/Lab-Dimension/bin/main:labdimension%%/Users/lucasbuckley/Documents/GitHub/Lab-Dimension/bin/test"
+      ],
+      "cwd": "${workspaceFolder}/run/gametest",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - labdimension",
+        "order": 2
+      },
+      "projectName": "labdimension",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/Users/lucasbuckley/Documents/GitHub/Lab-Dimension/build/moddev/serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/Users/lucasbuckley/Documents/GitHub/Lab-Dimension/build/moddev/serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dlabdimension%%/Users/lucasbuckley/Documents/GitHub/Lab-Dimension/bin/main:labdimension%%/Users/lucasbuckley/Documents/GitHub/Lab-Dimension/bin/test"
+      ],
+      "cwd": "${workspaceFolder}/run/server",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
